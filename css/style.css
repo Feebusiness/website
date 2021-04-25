@@ -1,0 +1,165 @@
+body{padding:0; background:#fff; color: #333; font-family: "微软雅黑";}
+h1,h2,h3,h4,h5,h6{font-weight: 300; font-family: "微软雅黑";}
+p{margin: 0; padding: 0;}
+ul,li{margin: 0; padding: 0;}
+a{color: #52b6ec; -webkit-transition: 300ms; -moz-transition: 300ms; -o-transition: 300ms; transition: 300ms;}
+a:hover{text-decoration: none;}
+.btn{font-weight: 300; border: 0;}
+#header{top:0px; left:0; width:100%; height:86px; z-index: 99999; background:#f2f4f5;}
+.navbar-default{background:#f2f4f5; padding-top:20px; height:86px; width:1200px; margin:0 auto; border:0; border-radius:0;  -webkit-justify-content: space-between;}
+.navbar-brand{padding:0;}
+.navbar-brand img{width:358px; display:block;}
+.navbar-brand img.idavollLogo{display:none;}
+.navbar-collapse{margin-left:72px;}
+.navbar-nav{float:right;}
+.navbar-default .navbar-nav > li {margin-left: 1px; position:relative;}
+.navbar-default .navbar-nav > li > a {padding:0; position:relative; margin-left:40px; font-size:20px; line-height:48px; color: #555;}
+.navbar-default .navbar-nav > li > a > i{display: inline-block;}
+.navbar-default .navbar-nav > li.active > a,
+.navbar-default .navbar-nav > li.active:focus > a,
+.navbar-default .navbar-nav > li.active:hover > a,
+.navbar-default .navbar-nav > li:hover > a,
+.navbar-default .navbar-nav > li:focus > a,
+.navbar-default .navbar-nav > li.active > a:focus,
+.navbar-default .navbar-nav > li.active:focus > a:focus,
+.navbar-default .navbar-nav > li.active:hover > a:focus,
+.navbar-default .navbar-nav > li:hover > a:focus,
+.navbar-default .navbar-nav > li:focus > a:focus {
+  background-color:transparent;
+  color: #ff6a00;
+}
+.navbar-default .navbar-nav > li.active > a label{background:url(../img/navLine.png); left:50%; margin-left:-17px; width:35px; height:4px; background-size:35px 4px; position:absolute; bottom:-6px;}
+.navbar-default .navbar-nav>li>a:hover, .navbar-default .navbar-nav>li>a:focus{color:#333;}
+.notice{background:url(../img/bannerGrayBg.jpg) center center no-repeat; background-size:100% 100%;}
+.notice-container{padding:140px 0; width:1200px; margin:0 auto;}
+.noticeTitle{text-align:center; color:#000; font-size:60px; font-weight:bold;}
+.noticeText{font-size:18px; text-align:justify; padding:40px 0 70px 0; color:#666; opacity:0.8; line-height:48px;}
+.noticeButton{text-align:center;}
+.noticeButton a{cursor:pointer;display: inline-block; background-color:transparent; outline:none; border: 0; width:306px; height:96px; font-size: 38px; color: #fff; line-height:96px; background:url(../img/button.png); background-size: 100% 100%;}
+.earnId{background:#fff; padding:20px 0;}
+.earn-container{width:1200px; margin:0 auto;}
+.earnTitle{text-align:center; font-weight:bold; padding:20px 0 40px 0; color:#000; font-size:48px;}
+.earnImg img{width:100%; display:block;}
+.earnText{font-size:18px; text-align:justify; padding:40px 0 60px 0; color:#444; opacity:0.8; line-height:48px;}
+.cryList{overflow:hidden;}
+.cryItem{margin-bottom:20px;}
+.cryInfo{background:#fff; border-radius:10px; padding:20px; min-height:460px;}
+.cryImg{padding-top:40px;}
+.cryImg img{width:90px; display:block; margin:0 auto;}
+.cryName{text-align:center; font-size:24px; color:#000; font-weight:bold; padding:20px 0;}
+.cryText{font-size:18px; color:#333; opacity:0.8; padding-bottom:10px;}
+.teamList{overflow:hidden;}
+.teamImg img{width:100%; display:block;}
+.teamItem{margin-bottom:20px;}
+.teamCont{position:relative;}
+.teamCont:hover .teamInfo{opacity:1.0;}
+.teamInfo{position:absolute; transition: all 0.3s ease-in-out 0s; opacity:0; left:0; top:0; right:0; bottom:0; background:#293039; color:#fff; padding:40px;}
+.teamName{font-size:30px; font-weight:bold;}
+.teamInt{padding:20px 0; font-size:18px; color:#7e8399;}
+.teamText{font-size:18px; text-align: justify;}
+.roadmapInfo{background:#f0f2f5; min-height:345px; padding:12px; border-radius:10px;}
+.roadmapList{overflow:hidden;}
+.roadmapItem{margin-bottom:20px;}
+.roadmapInfoContent{padding-bottom:10px;}
+.roadmapInfoTitle{text-align:center; font-size:20px; padding:10px 0; color:#FF6A00;}
+.roadmapInfoText{font-size:12px; color:#333; margin-top:15px; padding-left:18px; position:relative;}
+.roadmapInfoText label{position:absolute; left:0; top:4px; width:8px; height:8px; border-radius:100%; background:#FF6A00;}
+.roadmapSecond{overflow:hidden;}
+.roadmapSecondItem{margin-top:16px; float:left; width:46%; margin-right:4%;}
+.roadmapSecondTitle{font-size:15px; font-weight:bold; padding-top:10px; color:#FF6A00;}
+.infoImg{padding:20px 0;}
+.infoImg img{width:500px; display:block; margin:0 auto;}
+.partnersList{overflow:hidden;}
+.partnersItem{margin-bottom:20px; padding:0 10px;}
+.partnersItem img{width:100%; display:block;}
+.footerTop{padding:60px 0;}
+.footerInfo{padding:20px 0;}
+.footerInfoTitle{text-align:center; color:#fff; font-size:24px;}
+.footerInfoLink{text-align:center; padding-top:20px;}
+.footerInfoLink a{display:inline-block; border:0; margin:0 10px;}
+.footerInfoLink a img{width:80px; display:block;}
+.footerInfoText{text-align:center; line-height:42px; color:#fff; font-size:18px; padding-top:20px; opacity:0.8;}
+.footerRights{text-align:center; color:#fff; font-size:18px; line-height:80px; border-top:1px #505567 solid;}
+.navbar-default .navbar-nav>li>a{color:#555;}
+.col-20{float:left; width:22%; padding:0 10px;}
+.col-40{float:left; width:34%; padding:0 10px;}
+.scenarios{background:#f0f2f5; padding-bottom:20px;}
+.footer{background:#0E142B;}
+@media only screen and (min-width: 100px) and (max-width:767px) {
+#header{background:#fff; height:55px;}
+.navbar-toggle{margin-top:9px; border:0; margin-right:4px; color:#333; outline:none;}
+.navbar-default .navbar-toggle{background:#fff;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background:#fff;}
+.navbar-default .navbar-toggle .icon-bar{background:#333;}
+.navbar-collapse{margin-left:0px;}
+.navbar-default{width:100%; display: inherit;}
+.navbar-default{background:#fff; height:55px; padding:0;}
+.navbar-brand{padding:15px;}
+.navbar-brand img.logo{display:none;}
+.navbar-brand img.idavollLogo{width:200px; display:block;}
+.container{padding:0;}
+.navbar-collapse{background:#fff;}
+.navbar-default .navbar-nav > li > a{color:#000; text-align: center; margin:0; border-top:1px #eee solid;}
+.navbar-nav{margin:0; float:none;}
+.navbar-collapse{padding:0;}
+.navbar-collapse.in{overflow:hidden; border:0;}
+.notice-container,.earn-container{width:100%; padding:60px 20px;}
+.noticeTitle{font-size:36px;}
+.noticeText{padding:30px 0; line-height:36px; font-size:16px; text-align: left;}
+.earnText{padding:30px 0; line-height:36px; font-size:16px;}
+.earn-container{padding:0 20px;}
+.noticeButton a{cursor:pointer; display:inline-block; outline:none; border: 0; width:154px; height:48px; font-size:18px; color: #fff; line-height:48px; background:url(../img/button.png); background-size: 100% 100%;}
+.cryItem{padding:0;}
+.earnTitle{font-size:32px;}
+.teamItem{padding:0;}
+.roadmapItem{padding:0;}
+.teamInfo{padding:20px;}
+.infoImg img{width:80%; display:block; margin:0 auto;}
+.infoImg{padding:0;}
+.col-sm-6{width:50%; float:left;}
+.navbar-default .navbar-nav > li.active > a label{display:none;}
+.roadmapInfo{min-height:auto;}
+.col-20{float:none; width:100%; padding:0 0px;}
+.col-40{float:none; width:100%; padding:0 0px;}
+
+
+}
+@media only screen and (min-width: 767px) and (max-width:1200px){
+#header{background:#fff; height:55px;}
+.navbar-toggle{margin-top:9px; border:0; margin-right:4px; color:#333; outline:none; display:block;}
+.navbar-default .navbar-toggle{background:#fff;}
+.navbar-default .navbar-toggle:hover, .navbar-default .navbar-toggle:focus{background:#fff;}
+.navbar-default .navbar-toggle .icon-bar{background:#333;}
+.navbar-default{width:100%; display: inherit; background:#fff; height:55px; padding:0;}
+.navbar-brand{padding:15px;}
+.navbar-brand img.logo{display:none;}
+.navbar-brand img.idavollLogo{width:200px; display:block;}
+.container{padding:0; max-width:100%;}
+.navbar-header{float:none;}
+.navbar-collapse{margin-left:0px;}
+.navbar-nav{float:none; margin:0;}
+.navbar-nav>li{float:none;}
+.navbar-collapse.collapse{display:none !important;}
+.navbar-collapse{padding:0;}
+.navbar-collapse.in{display:block !important;}
+.navbar-collapse{background:#fff;}
+.navbar-default .navbar-nav > li > a{color:#000; text-align: center; margin:0; border-top:1px #eee solid;}
+.navbar-nav{margin:0;}
+.navbar-collapse.in{overflow:hidden;}
+.notice-container,.earn-container{width:100%; padding:100px 20px;}
+.earn-container{padding:20px;}
+.noticeButton a{cursor:pointer; display:inline-block; outline:none; border: 0; width:154px; height:48px; font-size:18px; color: #fff; line-height:48px; background:url(../img/button.png); background-size: 100% 100%;}
+.cryItem{padding:0; width:100%;}
+.cryInfo{min-height:auto;}
+.teamItem{padding:0;}
+.roadmapItem{padding:0;}
+.infoImg{padding:0;}
+.infoImg img{width:80%; display:block; margin:0 auto;}
+.col-sm-6{width:50%; float:left;}
+.navbar-default .navbar-nav > li.active > a label{display:none;}
+.roadmapInfo{min-height:auto;}
+.col-20{float:none; width:100%; padding:0 0px;}
+.col-40{float:none; width:100%; padding:0 0px;}
+.roadmapInfoText{font-size:14px;}
+
+}
